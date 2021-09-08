@@ -7,6 +7,6 @@ output: html_document
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-weather <- read.csv("weather.csv")
+flights <- read.csv("DelayedFlights_IAD.csv")
 ```
 
