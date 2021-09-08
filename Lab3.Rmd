@@ -7,6 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-flights <- read.csv("DelayedFlights_IAD.csv")
+nbaData <- read.csv("DelayedFlights_IAD.csv")
+ggplot(data = flights, aes(x=DayOfWeek, y=ArrDelay)) + geom_bar(stat="identity", fill='red')
 ```
 
