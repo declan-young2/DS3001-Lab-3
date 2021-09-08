@@ -1,0 +1,12 @@
+---
+title: "Lab3"
+author: "Declan Young"
+date: "9/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+weather <- read.csv("weather.csv")
+```
+
